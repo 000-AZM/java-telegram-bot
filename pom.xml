@@ -7,11 +7,15 @@
     <groupId>com.example</groupId>
     <artifactId>telegrambot</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <dependency>
-        <groupId>org.telegram</groupId>
-        <artifactId>telegrambots</artifactId>
-        <version>6.8.0</version>
-    </dependency>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.telegram</groupId>
+            <artifactId>telegrambots</artifactId>
+            <version>6.8.0</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -24,7 +28,4 @@
             </plugin>
         </plugins>
     </build>
-
-
-
 </project>
